@@ -67,13 +67,29 @@ The Phonon protocol applet software is open sourced and <mark style="color:red;"
 
 {% tabs %}
 {% tab title="Simple Explanation" %}
-There is essentially 3 core utilities behind how a Phonon works.
+There is essentially 3 core utilities behind how Phonon works.
 
 1. Creating a Phonon
-2. Transferring a Phonon (optional)
+2. Transferring a Phonon
 3. Redeeming a Phonon
 
+Here's an overview of how each works:
 
+#### Creating a Phonon
+
+A Phonon is created by first securing a digital asset onto a blockchain and then secured onto a Phonon Card. This can be done in numerous ways. For example, you could use the Phonon Manager to create a Phonon from an asset you have stored in a wallet such as MetaMask. The creation of the Phonon will hold the keys on the Phonon Card, much like how a wallet such as MetaMask held the keys to that asset. You're essentially transferring the keys into a Phonon. This means you can only access that asset encumbered within a Phonon by having access to the Phonon Card itself. The Phonon protocol software has the ability to do things such as transfer or redeem said Phonon.
+
+&#x20;&#x20;
+
+#### Transferring a Phonon
+
+A Phonon is transferred by sending someone the Phonon. In short, the Phonon is sent to a recipient, in which only the recipient's card is eligible to accept the transfer.  The Phonon is sent in an enclosed message and can be send using common methods including email, SMS, and WhatsApp.  When the user receives the Phonon transfer, they can choose to accept or deny the transfer. If denied, then it is returned to the sender. The send would need to re-add it to their card by accepting the return transfer.  Otherwise the recipient can accept the transfer and it will be added to the intended recipients Phonon Card.
+
+
+
+#### Redeeming a Phonon
+
+A Phonon can be redeemed for it's encumbered asset by making a request using software such as Phonon Manager. Redeeming an asset will require the user to determine where it's being redeemed to, such as a MetaMask wallet. Redeeming will transfer the asset to the requested destination, destroying the originating Phonon in the process.
 {% endtab %}
 
 {% tab title="Technical Explanation" %}
@@ -84,11 +100,31 @@ There is essentially 3 core utilities behind how a Phonon works.
 ## How can I try Phonon?
 
 {% tabs %}
-{% tab title="I want to use Phonon" %}
-
+{% tab title="As a user" %}
+Currently, the Phonon Protocol is geared more towards tech savvy enthusiasts and developers. Future software releases, including the release of the upcoming Phonon Manager will make it easier to use Phonon as an everyday user.
 {% endtab %}
 
-{% tab title="I want to develop with Phonon" %}
+{% tab title="As a developer" %}
 
+{% endtab %}
+{% endtabs %}
+
+## How can I contribute to Phonon?
+
+{% tabs %}
+{% tab title="I'm a technical/developer/cryptographer" %}
+If you'd like to technically contribute to the Phonon Protocol, here's a few places to get started:
+
+* [Discord](https://discord.gg/NkcSBGfG) - This is where the core conversations happened, check out the group of channels under TECHNICAL DISCUSSIONS. Feel free to introduce yourself and join the discussions.
+* [Documentation](the-phonon-protocol/) - Get familiar with what Phonon is, how the protocol works, and how to get started with development.
+* [Github Project](https://github.com/orgs/GridPlus/projects/18) - This is where we keep track of the progress of work done on the protocol.
+{% endtab %}
+
+{% tab title="I'm NOT technical, but want to contribute" %}
+If you'd like to  contribute to the Phonon Protocol, but don't have the technical background, here's where to get started:
+
+* [Discord](https://discord.gg/NkcSBGfG) - This is where the core conversations happened, check out the group of channels under WORKING GROUPS. Feel free to introduce yourself and join the discussions.
+* [Documentation](the-phonon-protocol/) - Get familiar with what Phonon is, how the protocol works, and how to use Phonon
+* <mark style="color:red;">Github Project</mark> - This is where we keep track of non-development progress for things related to Phonon. If you'd like to contribute artistically (illustrations, animations, etc.), you'll see what we're looking to complete here.  If you have other ideas, we'd love to hear them! Connect with us in Discord.
 {% endtab %}
 {% endtabs %}
