@@ -1,2 +1,183 @@
 # Governance Wiki
 
+#### Formal Governance Structure <a href="#bkmrk-page-title" id="bkmrk-page-title"></a>
+
+A few of the key challenges facing DAOs are a lack of operational and strategic focus, as well as community visibility into DAO operations as they become more robust and impactful.
+
+The organizational structure solves for these challenges by:
+
+* Creating three classes of DAO operatives: Community Leaders, DAO Leaders, and Working Group Leads.
+* Recommending that a DAO Council be developed, which will consist of Community Leaders, DAO Leaders, and Working Group Leads. The Council would meet monthly with the DAO (via Community Leaders and observers) to provide an understanding of how the DAO is progressing with respect to the community-approved Long-Term Strategic Plan.
+* From a high-level responsibility perspective:
+  * Community Leaders provide oversight and input on the updating the Long-Term Strategic Plan and budget.
+  * DAO Leaders are responsible (in concert with the DAO Council) for developing proposed updates to the Long-Term Strategic Plan, presenting the plan to the DAO for approval and ensuring the community-approved plan is executed (with the support of Working Group Leads).
+  * Working Group Leads have operational responsibility for implementing the projects for which they were elected, managing and dispersing budgets, developing sub-Working Groups (as necessary), etc.
+*
+  * Ensure that the DAO is able to stay agile in focusing on achieving key, community-mandated strategic objectives on an annual and semi-annual basis.
+  * Ensure Working Group activities and project implementations are on-strategy and accountable to the DAO.
+  * Provide for continuity of personnel so that knowledge and experience is not lost as Working Group Leads cycle in and out of their positions.
+  * Guarantee community accountability and visibility.
+  * Scale with the number of elected Working Group Leads.
+
+The DAO has debated about the need to allow for the quick creation of Working Groups in response to demands and opportunities, contrasted against the need to create order amongst the chaos that tends to overwhelm and burn out other DAOs. Ultimately, we settled on a six-month Working Group election and creation process, along with a mechanism to request emergency funds. We believe this is a sufficient compromise between agility and organization.
+
+**Phonon DAO Governance Structure**
+
+The Phonon DAO will be governed by a DAO Council, which shall be comprised of members elected by the DAO at-large. The DAO Council will consist of three types of positions, whose organization structure and position descriptions are described in Figure 1 and Table 1.
+
+**Figure 1: PHONON DAO Council Organizational Structure**
+
+Table 1 - Phonon DAO Council Organizational Structure\\
+
+| Organizational Layer | DAO Entity Type         | Duties/Focus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Layer 1 (Top Layer)  | Community Leaders       | <ul><li>Elected community members responsible for providing oversight of DAO Leaders’ and Working Group Leads’ activities, including budgets, deliverables, and progress.</li><li>Serve on the DAO Council.</li><li>Provide input into the Long-Term Strategic Plan.</li><li>Attend DAO-wide Council Meetings once a month.</li><li>Community Leaders serve a mandate of two terms.</li><li>Community engagement is a must for this position.</li><li>Expected time commitment: 2-4 hours/week per Leader.</li></ul><p>Compensation: Compensated position (stipend of $750/month in PHONON).</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Layer 2              | DAO Leaders             | <ul><li>Elected community members responsible for putting together the term’s budget, as well as leading the process for updating the Long-Term Strategic Plan.</li><li>Provide operational services to the DAO, including budget management, engaging with the foundation, and legal counsel.</li><li>Work with various entities wishing to engage with the DAO, including VCs, manufacturers, and others.</li><li>Review, manage, and guide funding requests from Working Groups, should they arise.</li><li>Organize and co-lead Council Meetings.</li><li>Engage with Community Leaders as needed to keep them informed of DAO progress.</li><li>Engage with Working Group Leads as needed to keep activities synched, overcome operational roadblocks, etc.</li><li>DAO Leaders serve a mandate of two terms.</li><li>DAO Leaders are responsible for maintaining operational and strategic consistency as Working Group Leads cycle in and out of projects/initiatives.</li><li>Expected time commitment: 20-30 hours/week per Director.</li></ul><p>Compensation: Total compensation will be determined by the DAO, based on compensation ranges submitted by nominees. Nominees are considered independent contractors and are responsible for covering their own insurance, taxes, etc.</p> |
+| Layer 3              | DAO Working Group Leads | <ul><li>Elected members of the community responsible for managing the day-to-day operations of their proposed DAO working groups.</li><li>Working Group Leads engage with DAO Leaders re: progress, blockers, budget requests, alignment with overall strategic imperatives and other details.</li><li>Working Group Leads can hire or otherwise recruit Working Group Agents, as well as develop sub-Working Groups related to specific projects they are working on. Agents can be community members (working under a defined budget) or third-party contractors.</li><li>Working Group Leads shall serve a mandate of one term, usually related to the implementation of specific projects/initiatives undertaken by the DAO.</li><li>Expected time commitment: 15-20 hours/week per Lead.</li></ul><p>Compensation: Total compensation will be determined by the DAO, based on compensation ranges submitted by nominees. Nominees are considered independent contractors and are responsible for covering their own insurance, taxes, etc.</p>                                                                                                                                                                                                                                                  |
+
+In order to stay as agile as possible, Working Groups have not been predefined by the DAO. Working Groups are created when a Working Group Lead has been elected via the process defined below. As part of the nomination process, the Working Group Lead will propose their Working Group, goals for their group, as well as the budget required to accomplish said goals over the next six months. Election of a Working Group is considered de facto acknowledgement from the community that the Working Group’s work is necessary to the DAO’s success.
+
+This process means that it is impossible to predict how many Working Groups will exist for a given term. To account for this, the number of Community Leaders and DAO Leaders will scale with the number of elected Working Group Leads (see Table 2).
+
+**Table 2 - Phonon DAO Council Position Numbers**
+
+| # Working Group Leads | # DAO Leaders | # Community Leaders |
+| --------------------- | ------------- | ------------------- |
+| 1 - 3                 | 1             | 2                   |
+| 4 - 6                 | 2             | 3                   |
+| 7+                    | 3             | 4                   |
+
+Agile and organic Working Group creation does not negate the need for an overall DAO strategy that thinks strategically and long-term. At the beginning of each term, after all elections are completed, the DAO Council shall work to update the Phonon DAO Long-Term Strategic Plan.
+
+The Phonon DAO Long-Term Strategic Plan is a living document that defines the DAO’s goals over the long-term (one year and beyond). The election of Working Groups is the DAO’s mechanism to choose the goals and action items that they would like to see executed over the next six months. Updating the Phonon DAO Long-Term Strategic Plan is an opportunity to tweak long-term goals based on the recent elections.
+
+Council members derive operational and strategic powers via community-provided Mandates, which extend over a predetermined term. A term is a six months, and there are two terms per year:
+
+1.  1\.
+
+    Starting in 2023, Council terms officially begin on January 1 and run until the start of the second annual term (six months later).
+
+    * Once this operational framework is approved by the DAO, there will be one term that starts upon first elections and ends on December 31, 2022.
+2.  2\.
+
+    The second annual term starts on July 1 and runs until the start of the first term the following year.
+3.  3\.
+
+    For the first two terms under this governance structure, any product-related or operations-related working groups must include an Agent who is a representative of GridPlus.
+
+A DAO member may only hold a single Layer 1 or Layer 2 DAO Council position at a time. There is no limit to the amount of simultaneous Layer 3 mandates a DAO member may serve, provided they are elected, but they still only get a single council vote, even in the event they also hold a Layer 1 or 2 position.
+
+_**Plain English:** A Working Group Lead may be a Working Group Lead for multiple simultaneous Working Groups. Additionally, a Working Group Lead may also simultaneously serve as either a DAO Leader or Community Leader. A DAO Leader may not serve as a Community Leader, and vice versa. In all of these situations, a person only gets 1 DAO Council vote, regardless of the number of positions they hold._\\
+
+In the event the number of working groups decreases from term to term and the number of DAO or Community Leaders exceeds the number required per Table 2, excess DAO or Community Leaders may choose to step down or continue on to complete their two-term mandate.
+
+Election of a working group is considered de facto approval of that working group’s budget. The onus is on the DAO to scrutinize and request adjustments to budget proposals as part of the working group nomination process.
+
+Upon the start of a term, the DAO Leader(s) shall convene the DAO Council to create a singular budget document for that term, as well as create a disbursement plan, which shall both be shared with the DAO.
+
+In the case of an emergency, where funds are needed by a Working Group or the DAO at-large outside of the normal budget process, a requesting DAO member(s) may appeal to the DAO Council, who has the authority to disburse funds up to $5,000 without seeking DAO approval, up to a limit of $15,000 per term. Any request over these limits will need approval from the DAO via snapshot vote, preceded by a Request For Comment in the forums.
+
+**Limits on Use of DAO Funds**
+
+Wallets that are used to accept funds from the DAO Treasury for Working Group operations may not vote in Snapshot polls.
+
+**Compensation Adjustment Process**
+
+Approved compensation can be adjusted (up or down) via consultation with Community Directors and DAO Directors. All adjustments are subject to review by the DAO.
+
+**Ability to Relinquish Position**
+
+Any Council member may step down from their position after providing a 30-day notice. In the case of DAO Leaders or Community Leaders, the rest of the Council shall decide to run a special election for the open position(s), or leave the position(s) open until regularly scheduled elections. In the event that half of the DAO Leader and Community Leader positions are vacant, elections must be conducted, regardless of proximity to regularly-scheduled elections. This is to prevent the concentration of authority.
+
+In the event a Working Group Lead resigns, the DAO Council may choose to dissolve the working group or appoint another DAO member as the new Working Group Lead to finish the term.
+
+**Removal of Council Member**
+
+Any DAO Council Member may be removed from duty via the following process:
+
+1.  1\.
+
+    Performance review and recommendation by the DAO Council; a vote would take place to remove an individual; a one-third majority vote is required to move the vote for removal to the community.
+2.  2\.
+
+    Post the recommendation for removal to the forum for community discussion and review (RFC).
+3.  3\.
+
+    After the recommendation is approved informally by the community, a simple majority snapshot vote of the DAO, with a quorum of 10%+ of PHONON (from circulating supply).
+4.  4\.
+
+    Upon removal of a DAO Council Member, the rest of the Council shall decide to run a special election for the open position(s), or leave the position open until regularly scheduled elections.
+
+**Dissolution of the DAO Council**
+
+The DAO Council may be dissolved via the following process:
+
+Elections are conducted in two phases: first phase is to elect Working Group Leads, and the second phase is to elect Community and DAO Leaders.
+
+**Working Group Lead Election Process**
+
+Forty-five days before a new term begins, the DAO shall open an election window for Working Group Leads that will run for the 30 days. To create a Working Group and be elected as a Working Group Lead, DAO members must complete this process before the election window closes:
+
+1.  1\.
+
+    Once the election window opens, prospective Working Group Leads shall create a new post on the forum, announcing their candidacy.
+
+    * Creating a separate post for each nominee allows the DAO to comment and provide feedback on the proposal.
+    * As part of their self-nomination post, Working Group Leads need to answer the below questions:
+      * Involvement thus far in the Phonon DAO
+      * Proposed Working Group and description
+      * Working Group goals, be specific
+      * How will you measure success?
+      * Budget required to meet these goals during the term, including compensation
+      * How will you accept and disburse funds? _(We recommend a multisig for funds greater than $10,000)_
+      * Why is this Working Group needed now?
+      * How does this Working Group fit into the Phonon DAO Long-Term Strategic Plan? If it doesn’t, how should the Strategic Plan be updated?
+    * Their post must contain a vote for community members to approve or disapprove of the proposal. The post must be live for at least 5 days and receive a simple majority’s approval with at least 5 votes to move to Snapshot.
+2.  2\.
+
+    After the nomination period is closed, each prospective Working Group Lead shall create a single choice vote Snapshot poll for the official approval of their Working Group.
+
+    * Based on feedback received during the initial nomination phase, prospective Working Group Leads may make limited tweaks to their proposal at this stage.
+    * The Snapshot vote must be open for no less than 5 days.
+    * If the vote passes with at least a simple majority, the Working Group is established for that term, and the Working Group Lead is elected to the DAO Council.
+    * If the vote fails, the Working Group is disapproved. If there is enough time in the election window to complete the process again, the DAO member may try again.
+
+Once the Working Group Lead election window closes and the DAO knows the number of Community and DAO leaders needed (per Table 2), elections for these positions shall be conducted per this process:
+
+1.  1\.
+
+    Two forum posts will be created for DAO Members to nominate themselves:
+
+    * Community Leader Nomination Thread
+    * DAO Leader Nomination Thread
+2.  2\.
+
+    After 5 days, the application period closes. If there are not enough candidates to fill the positions, applications will remain open until enough applications are received.
+3.  3\.
+
+    New forum posts will be created for voting. Voting will last for 5 days, and DAO members will be allowed one vote per open position.
+4.  4\.
+
+    The candidates with the most votes are submitted to the DAO for approval via a snapshot vote, voting lasts for 5 days.
+5.  5\.
+
+    If the vote passes with at least a simple majority, the new Community and DAO Leaders are elected.
+6.  6\.
+
+    If the vote fails, the DAO Council will accept any feedback and start the election process again. Anyone is free to reuse an existing application, and the existing Community and DAO Leaders shall stay in place until the new members are elected.
+
+Community and DAO Leader applicants will need to answer these prompts to nominate themselves. These questions are subject to change by the DAO Council at any time.
+
+* Summary Experience in DeFi/DAOs
+* Describe your involvement thus far in the Phonon DAO
+* Qualifications - What will you bring to the DAO as a Community Leader?
+* Confirmation that the applicant can commit the time required for the position; Other projects they are working on
+* Anything else you would like to share?
+* Summary Experience in DeFi/DAOs
+* Involvement thus far in the Phonon DAO
+* Qualifications - What will you bring to the DAO as a DAO Leader?
+* Minimum accepted compensation
+* Confirmation that the applicant can commit the time required for the position; Other projects they are working on; time they can commit to the position weekly
+* Other experience, perspectives and insights that would enable the individual to satisfactorily serve as DAO Leader
+
+This proposal was approved on April 10, 2022 via [PhIP-06](https://snapshot.org/#/phonon.eth/proposal/0x2db2912f93266e25030fe37a3058392702fea0f5c46471852ff39087d9e6fb43). Subsequent edits were approved via [PhIP-07](https://snapshot.org/#/phonon.eth/proposal/0xf905a736df781effc479977c3319a4f0847078c849ab4c4f3319fe245801dd6c) and [PhIP-08](https://snapshot.org/#/phonon.eth/proposal/0x25ffd23818c1f60a4dcb3d7a4406e3173629a901e2792507351ebcf138a44a5d).\\
