@@ -53,17 +53,10 @@ The Phonon DAO Long-Term Strategic Plan is a living document that defines the DA
 
 Council members derive operational and strategic powers via community-provided Mandates, which extend over a predetermined term. A term is a six months, and there are two terms per year:
 
-1.  1\.
-
-    Starting in 2023, Council terms officially begin on January 1 and run until the start of the second annual term (six months later).
-
-    * Once this operational framework is approved by the DAO, there will be one term that starts upon first elections and ends on December 31, 2022.
-2.  2\.
-
-    The second annual term starts on July 1 and runs until the start of the first term the following year.
-3.  3\.
-
-    For the first two terms under this governance structure, any product-related or operations-related working groups must include an Agent who is a representative of GridPlus.
+1. Starting in 2023, Council terms officially begin on January 1 and run until the start of the second annual term (six months later).
+   * Once this operational framework is approved by the DAO, there will be one term that starts upon first elections and ends on December 31, 2022.
+2. The second annual term starts on July 1 and runs until the start of the first term the following year.
+3. For the first two terms under this governance structure, any product-related or operations-related working groups must include an Agent who is a representative of GridPlus.
 
 A DAO member may only hold a single Layer 1 or Layer 2 DAO Council position at a time. There is no limit to the amount of simultaneous Layer 3 mandates a DAO member may serve, provided they are elected, but they still only get a single council vote, even in the event they also hold a Layer 1 or 2 position.
 
@@ -95,18 +88,10 @@ In the event a Working Group Lead resigns, the DAO Council may choose to dissolv
 
 Any DAO Council Member may be removed from duty via the following process:
 
-1.  1\.
-
-    Performance review and recommendation by the DAO Council; a vote would take place to remove an individual; a one-third majority vote is required to move the vote for removal to the community.
-2.  2\.
-
-    Post the recommendation for removal to the forum for community discussion and review (RFC).
-3.  3\.
-
-    After the recommendation is approved informally by the community, a simple majority snapshot vote of the DAO, with a quorum of 10%+ of PHONON (from circulating supply).
-4.  4\.
-
-    Upon removal of a DAO Council Member, the rest of the Council shall decide to run a special election for the open position(s), or leave the position open until regularly scheduled elections.
+1. Performance review and recommendation by the DAO Council; a vote would take place to remove an individual; a one-third majority vote is required to move the vote for removal to the community.
+2. Post the recommendation for removal to the forum for community discussion and review (RFC).
+3. After the recommendation is approved informally by the community, a simple majority snapshot vote of the DAO, with a quorum of 10%+ of PHONON (from circulating supply).
+4. Upon removal of a DAO Council Member, the rest of the Council shall decide to run a special election for the open position(s), or leave the position open until regularly scheduled elections.
 
 **Dissolution of the DAO Council**
 
@@ -118,53 +103,34 @@ Elections are conducted in two phases: first phase is to elect Working Group Lea
 
 Forty-five days before a new term begins, the DAO shall open an election window for Working Group Leads that will run for the 30 days. To create a Working Group and be elected as a Working Group Lead, DAO members must complete this process before the election window closes:
 
-1.  1\.
-
-    Once the election window opens, prospective Working Group Leads shall create a new post on the forum, announcing their candidacy.
-
-    * Creating a separate post for each nominee allows the DAO to comment and provide feedback on the proposal.
-    * As part of their self-nomination post, Working Group Leads need to answer the below questions:
-      * Involvement thus far in the Phonon DAO
-      * Proposed Working Group and description
-      * Working Group goals, be specific
-      * How will you measure success?
-      * Budget required to meet these goals during the term, including compensation
-      * How will you accept and disburse funds? _(We recommend a multisig for funds greater than $10,000)_
-      * Why is this Working Group needed now?
-      * How does this Working Group fit into the Phonon DAO Long-Term Strategic Plan? If it doesn’t, how should the Strategic Plan be updated?
-    * Their post must contain a vote for community members to approve or disapprove of the proposal. The post must be live for at least 5 days and receive a simple majority’s approval with at least 5 votes to move to Snapshot.
-2.  2\.
-
-    After the nomination period is closed, each prospective Working Group Lead shall create a single choice vote Snapshot poll for the official approval of their Working Group.
-
-    * Based on feedback received during the initial nomination phase, prospective Working Group Leads may make limited tweaks to their proposal at this stage.
-    * The Snapshot vote must be open for no less than 5 days.
-    * If the vote passes with at least a simple majority, the Working Group is established for that term, and the Working Group Lead is elected to the DAO Council.
-    * If the vote fails, the Working Group is disapproved. If there is enough time in the election window to complete the process again, the DAO member may try again.
+1. Once the election window opens, prospective Working Group Leads shall create a new post on the forum, announcing their candidacy.
+   * Creating a separate post for each nominee allows the DAO to comment and provide feedback on the proposal.
+   * As part of their self-nomination post, Working Group Leads need to answer the below questions:
+     * Involvement thus far in the Phonon DAO
+     * Proposed Working Group and description
+     * Working Group goals, be specific
+     * How will you measure success?
+     * Budget required to meet these goals during the term, including compensation
+     * How will you accept and disburse funds? _(We recommend a multisig for funds greater than $10,000)_
+     * Why is this Working Group needed now?
+     * How does this Working Group fit into the Phonon DAO Long-Term Strategic Plan? If it doesn’t, how should the Strategic Plan be updated?
+   * Their post must contain a vote for community members to approve or disapprove of the proposal. The post must be live for at least 5 days and receive a simple majority’s approval with at least 5 votes to move to Snapshot.
+2. After the nomination period is closed, each prospective Working Group Lead shall create a single choice vote Snapshot poll for the official approval of their Working Group.
+   * Based on feedback received during the initial nomination phase, prospective Working Group Leads may make limited tweaks to their proposal at this stage.
+   * The Snapshot vote must be open for no less than 5 days.
+   * If the vote passes with at least a simple majority, the Working Group is established for that term, and the Working Group Lead is elected to the DAO Council.
+   * If the vote fails, the Working Group is disapproved. If there is enough time in the election window to complete the process again, the DAO member may try again.
 
 Once the Working Group Lead election window closes and the DAO knows the number of Community and DAO leaders needed (per Table 2), elections for these positions shall be conducted per this process:
 
-1.  1\.
-
-    Two forum posts will be created for DAO Members to nominate themselves:
-
-    * Community Leader Nomination Thread
-    * DAO Leader Nomination Thread
-2.  2\.
-
-    After 5 days, the application period closes. If there are not enough candidates to fill the positions, applications will remain open until enough applications are received.
-3.  3\.
-
-    New forum posts will be created for voting. Voting will last for 5 days, and DAO members will be allowed one vote per open position.
-4.  4\.
-
-    The candidates with the most votes are submitted to the DAO for approval via a snapshot vote, voting lasts for 5 days.
-5.  5\.
-
-    If the vote passes with at least a simple majority, the new Community and DAO Leaders are elected.
-6.  6\.
-
-    If the vote fails, the DAO Council will accept any feedback and start the election process again. Anyone is free to reuse an existing application, and the existing Community and DAO Leaders shall stay in place until the new members are elected.
+1. Two forum posts will be created for DAO Members to nominate themselves:
+   * Community Leader Nomination Thread
+   * DAO Leader Nomination Thread
+2. After 5 days, the application period closes. If there are not enough candidates to fill the positions, applications will remain open until enough applications are received.
+3. New forum posts will be created for voting. Voting will last for 5 days, and DAO members will be allowed one vote per open position.
+4. The candidates with the most votes are submitted to the DAO for approval via a snapshot vote, voting lasts for 5 days.
+5. If the vote passes with at least a simple majority, the new Community and DAO Leaders are elected.
+6. If the vote fails, the DAO Council will accept any feedback and start the election process again. Anyone is free to reuse an existing application, and the existing Community and DAO Leaders shall stay in place until the new members are elected.
 
 Community and DAO Leader applicants will need to answer these prompts to nominate themselves. These questions are subject to change by the DAO Council at any time.
 

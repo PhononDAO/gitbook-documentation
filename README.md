@@ -67,7 +67,7 @@ The Phonon protocol applet software is open sourced and <mark style="color:red;"
 
 {% tabs %}
 {% tab title="Simple Explanation" %}
-There is essentially 3 core utilities behind how Phonon works.
+There is essentially 3 core functions behind how Phonon works.
 
 1. Creating a Phonon
 2. Transferring a Phonon
@@ -93,19 +93,61 @@ A Phonon can be redeemed for it's encumbered asset by making a request using sof
 {% endtab %}
 
 {% tab title="Technical Explanation" %}
+There is essentially 3 core functions behind how Phonon works.
 
+1. Creating a Phonon
+2. Transferring a Phonon
+3. Redeeming a Phonon
+
+Here's how each works, technically:
+
+#### Creating a Phonon
+
+The private key for each Phonon must only be known to the card. As such, to create a Phonon, a user must ask the card for a public key to a new Phonon. The user can then use that public key to commit assets on a blockchain to that Phonon (e.g. create Bitcoin address from public key and send some BTC to that address). The user must also provide the card some information about the asset that the Phonon represents. When it comes time to withdraw a Phonon, this information will give the user enough information to redeem the associated digital asset (e.g. which blockchain & address format this Phonon asset exists on).
+
+The creation process goes as follows:
+
+1. User requests a new Phonon public key generated from the card.
+2. User deposits digital assets on a blockchain to an address corresponding to this public key.
+3. User finalizes Phonon creation, by providing info about the associated digital asset (blockchain network, address format, etc).
+
+####
+
+#### Transferring a Phonon
+
+Phonons may only be transferred to/from another authentic Phonon Card. This prevents exchanging with malicious cards that may duplicate or leak Phonon private keys. This is the key to preventing double-spending on the network. To achieve this, each Phonon card is provided with a certificate signed by a valid issuer. Before transferring Phonons, a card must first check that the other party has a valid signed certificate, and possesses the private key that was certified. Then, a transaction can be built and encrypted using a shared secret only known to those two cards (via ECDH key exchange). When the sender's card emits the transaction, the sender's card automatically deletes the Phonon(s) internally, so that it will not be able to spend it twice. At this point, the encrypted transaction should now be treated as a collection of Phonon(s). The receiver's card (and only that card!) can import and receive that Phonon transaction. Consequently, if the transaction is lost or the receiver's card is lost, the Phonon(s) spent in that transaction will also be lost.
+
+There is one more detail necessary to prevent replay attacks. As described up to this point, a Phonon transaction could theoretically be replayed `N` times to the receiver's card, tricking the card into receiving the Phonons `N` times. To prevent this, we require that each transaction correspond to an invoice ID from the receiver. This ensures that replayed transactions will be detected and discarded, as they all refer to the same invoice ID. In practice, this adds negligible complexity, because this extra invoice ID can be sent with the receiver certificate at the beginning of the transaction. This invoice ID is simply a unique nonce, and requires no information about the details of the transaction.
+
+Lastly, to prevent certain attacks where an attacker may wish to DoS your card with bogus Phonons, the card will provide the ability to let a terminal build a whitelist of Phonons that may be accepted by the card. With this approach, a terminal will negotiate the details of a transfer between two cards (and check the sender's Phonon public keys on chain for validity, etc). Once the transfer details are confirmed, the terminal can provide a whitelist of Phonons to accept. This ensures the card will only accept Phonons the terminal has already deemed valid, thus preventing the need for a lengthy interactive process with the card to detect and remove bogus Phonons.
+
+####
+
+#### Redeeming a Phonon
+
+Eventually a user may wish to unlock & redeem the digital assets associated with a Phonon. In this case, the user can specify a number of Phonons to be exported from the card. The card will respond by exporting each requested Phonon (private key and asset data), so that the user can build the appropriate blockchain transactions to redeem the associated digital assets. Importantly, the act of exporting a Phonon's private key _destroys_ that Phonon. That Phonon will be deleted from the card, and no longer transferable on the Phonon Network.
 {% endtab %}
 {% endtabs %}
+
+
 
 ## How can I try Phonon?
 
 {% tabs %}
 {% tab title="As a user" %}
 Currently, the Phonon Protocol is geared more towards tech savvy enthusiasts and developers. Future software releases, including the release of the upcoming Phonon Manager will make it easier to use Phonon as an everyday user.
+
+If you'd still like to try Phonon, check out the "_As a developer_" tab.
 {% endtab %}
 
 {% tab title="As a developer" %}
+You'll need to have a testnet kit. If you don't have one, unfortunately, they are no longer available.  However, you can still download the software and test it with a mock card. &#x20;
 
+[Download pre-release Phonon Client](https://github.com/GridPlus/phonon-client/releases/tag/latest)
+
+**Note:** A mock card is a simulated, virtual card that allows to to test the protocol without real assets.  Please note that mock cards get destroyed when you close the software.  Proceed at your own risk.
+
+When the beta version of the Phonon protocol is released, we will announce more in Discord.  Make sure to [join our Discord](https://discord.com/invite/NkcSBGfG).
 {% endtab %}
 {% endtabs %}
 
