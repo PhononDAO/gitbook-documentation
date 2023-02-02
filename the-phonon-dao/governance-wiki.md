@@ -12,12 +12,11 @@ The organizational structure solves for these challenges by:
   * Community Leaders provide oversight and input on the updating the Long-Term Strategic Plan and budget.
   * DAO Leaders are responsible (in concert with the DAO Council) for developing proposed updates to the Long-Term Strategic Plan, presenting the plan to the DAO for approval and ensuring the community-approved plan is executed (with the support of Working Group Leads).
   * Working Group Leads have operational responsibility for implementing the projects for which they were elected, managing and dispersing budgets, developing sub-Working Groups (as necessary), etc.
-*
-  * Ensure that the DAO is able to stay agile in focusing on achieving key, community-mandated strategic objectives on an annual and semi-annual basis.
-  * Ensure Working Group activities and project implementations are on-strategy and accountable to the DAO.
-  * Provide for continuity of personnel so that knowledge and experience is not lost as Working Group Leads cycle in and out of their positions.
-  * Guarantee community accountability and visibility.
-  * Scale with the number of elected Working Group Leads.
+* Ensure that the DAO is able to stay agile in focusing on achieving key, community-mandated strategic objectives on an annual and semi-annual basis.
+* Ensure Working Group activities and project implementations are on-strategy and accountable to the DAO.
+* Provide for continuity of personnel so that knowledge and experience is not lost as Working Group Leads cycle in and out of their positions.
+* Guarantee community accountability and visibility.
+* Scale with the number of elected Working Group Leads.
 
 The DAO has debated about the need to allow for the quick creation of Working Groups in response to demands and opportunities, contrasted against the need to create order amongst the chaos that tends to overwhelm and burn out other DAOs. Ultimately, we settled on a six-month Working Group election and creation process, along with a mechanism to request emergency funds. We believe this is a sufficient compromise between agility and organization.
 
@@ -26,8 +25,6 @@ The DAO has debated about the need to allow for the quick creation of Working Gr
 The Phonon DAO will be governed by a DAO Council, which shall be comprised of members elected by the DAO at-large. The DAO Council will consist of three types of positions, whose organization structure and position descriptions are described in Figure 1 and Table 1.
 
 **Figure 1: PHONON DAO Council Organizational Structure**
-
-Table 1 - Phonon DAO Council Organizational Structure\\
 
 | Organizational Layer | DAO Entity Type         | Duties/Focus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
