@@ -13,24 +13,26 @@ The following team leads are hedging the path towards a Phonon future:
 
 The following are Phonon DAO community leads.
 
-| Type           | Discord ID          | Since    |
-| -------------- | ------------------- | -------- |
-| Community Lead | andrew byrley #6998 | May 2022 |
-| Community Lead | Tuesdays#0001       | May 2022 |
+| Discord ID                          | Since    |
+| ----------------------------------- | -------- |
+| andrew byrley #6998                 | May 2022 |
+| Tuesdays#0001                       | May 2022 |
+| <mark style="color:red;">???</mark> |          |
 
 ### Multisig Wallet Holders
 
 The following members are signers on the DAO treasury's multisig wallet:
 
-| Discord ID         | Since      |
-| ------------------ | ---------- |
-| Mickey#1707        | April 2022 |
-| andrew byrley#6998 | April 2022 |
-| davoice321#4405    | April 2022 |
-| 0xBanan#2022       | April 2022 |
-| Rake#8118          | July 2022  |
-| senor#5164         | July 2022  |
-| Tuesdays#0001      | July 2022  |
+| Discord ID                          | Since      |
+| ----------------------------------- | ---------- |
+| Mickey#1707                         | April 2022 |
+| andrew byrley#6998                  | April 2022 |
+| davoice321#4405                     | April 2022 |
+| 0xBanan#2022                        | April 2022 |
+| Rake#8118                           | July 2022  |
+| senor#5164                          | July 2022  |
+| Tuesdays#0001                       | July 2022  |
+| <mark style="color:red;">???</mark> |            |
 
 ### Active Working Groups
 
