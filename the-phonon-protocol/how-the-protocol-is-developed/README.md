@@ -1,17 +1,17 @@
 # How the Protocol is Developed
 
-The Phonon Protocol is developed in tandem with the [GridPlus](https://gridplus.io/) engineering team and contributors of the Phonon DAO.  The protocol development is led by Dan (deviator#5128 on Discord).
+The Phonon Protocol is developed in tandem with the [GridPlus](https://gridplus.io/) engineering team and contributors of the Phonon DAO.  The protocol development is led by deviator#5128 on Discord.
 
 The team currently consists of:
 
-| Name               | Affiliation | Primary Role           |
-| ------------------ | ----------- | ---------------------- |
-| Dan Veenstra       | GridPlus    | Lead Protocol Engineer |
-| Nate Maile         | GridPlus    | Protocol Engineer      |
-| Martin             | GridPlus    | Javacard Engineer      |
-| Anthony Hinchy     | Phonon DAO  | Protocol Engineer      |
-| Douglas Phillips   | GridPlus    | Protocol Engineer      |
-| Anthony Montalbano | GridPlus    | UX Engineer            |
+| Discord ID    | Affiliation | Primary Role           |
+| ------------- | ----------- | ---------------------- |
+| deviator#5128 | GridPlus    | Lead Protocol Engineer |
+| Nate#9826     | GridPlus    | Protocol Engineer      |
+| mrtn#2227     | GridPlus    | Javacard Engineer      |
+| hinchy#7765   | Phonon DAO  | Protocol Engineer      |
+| Light#4883    | GridPlus    | Protocol Engineer      |
+| boop.eth#7512 | GridPlus    | UX Engineer            |
 
 Collaboration and conversations are primarily held in [Discord](https://discord.gg/NkcSBGfG).  The core channels under TECHNICAL DISCUSSIONS will give you a clearer picture of what is currently be discussed and worked on.
 
