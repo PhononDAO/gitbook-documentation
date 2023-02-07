@@ -1,3 +1,2 @@
 # Card Interface Specification
-
-<mark style="color:red;">TODO</mark>
+This section details available interfaces with which, phonon can be utilized.
