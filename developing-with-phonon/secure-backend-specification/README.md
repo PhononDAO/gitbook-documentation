@@ -29,7 +29,7 @@ all phonon interactions must adhere to the following Constraints
 ### Encoding
 For the purposes of this document, any data being described will be in JSON format.  
 Data sent between the terminal and the phonon sce will be implementation dependent.  
-Data sent between the phonon sce and another phonon sce will be in CBOR format.
+Phonon transfer packets must be encoded in [CBOR](https://www.rfc-editor.org/rfc/rfc8949.html) format
 
 ## Interaction descriptions
 ### Certificate Authority loading
@@ -63,17 +63,6 @@ Phonon creation connsists of the generation of a public/private keypair within t
 There must be a way to obtain a list of existing phonons for further use by the user
 1. LIST_PHONONS command is run
 
-### Remote Connection (depricated)
-A connection on the client level must be established in order for the secure connection to be established between phonon sce units. There are many ways this can be done, and will be ommitted from this document
-
-### Secure Connection (depricated)
-this is complicated enough that it's not worth the effort to get it right in this document due to it's depricated status. 
-### Phonon Transfer (depricated)
-A transfer of phonons between bob and alice assumes the secure connction between both bob and alice's phonon sces are engaged in a secure connection
-1. bob initiates SEND_PHONONS command through the clint
-2. the resulting phonon transfer packet is sent over the remote connection to alice's client
-3. Alice's client runs the RECEIVE_PHONONS command with the phonon transfer packet payload against her phonon sce
-
 ### Phonon Transfer
 A transfer of phonons from Bob to Alice
 1. Bob retrieves Alice's Phonon sce certificate
@@ -90,23 +79,23 @@ a user retrieves the private key of a phonon and utilizes it to do transactions 
 ## LOAD_CA
 This is to load the phonon certificate authority Public Key. Phonon sce devices to be transferred to will have their certificate signatures checked against this key to verify the authenticity of the phonon device.
 ### Inputs
-	```json
+```json
 	{"Certificate":[binary data]}
-	```
+```
 
 ### Outputs
-	```json
+```json
 	{}
-	```
+```
 
 ## INFORMATION
 the phonon sce will return certificate information. Only the identity public key will be returned upon first run, and all the specified information will be returned after LOAD_CA has been run
 ### Inputs
-	```
+```
 	none
-	```
+```
 ### Outputs (after certificate loading)
-	```json
+```json
 	{
 		"pubkey": "binary",
 		"cert": "binary",
@@ -114,67 +103,75 @@ the phonon sce will return certificate information. Only the identity public key
 		"nonce": "binary",
 		"counter", "integer or binary?",
 	}
+```
 ### Outputs (pre certificate loading)
-	```json
+```json
 	{
 		"pubkey": "binary",
 	}
+```
 ## LOAD_CERT
 The phonon sce will store its identity certificate. the identity certificate will be stored to be returned in the INFORMATION command
 ### Inputs
-	```json
+```json
 	{
    	"pub": "public key point as byte string",
    	"iat": "uint32",
    	"exp": "uint32",
    	"ver": "int, device firmware version"
 	}
-	```
+```
 ### Outputs
-	```
+```
 	none
-	```
+```
 
-## ESTABLSIH_SECURITY
+## ESTABLISH_SECURITY
 This command is to setup the security mechanism on the phonon sce. This is implementation dependent but SHOULD appropriately lock out unauthorized users from utilizing the phonon sce it is set to. 
 ### Inputs
-	```json
+```json
 	[implementation dependent]
-	```
+```
 
 ### Outputs:
-	```json
+```json
 	[implementation dependent]
-	```
+```
 ## UNLOCK
 This comand is to unlock the phonon sce for use. Before this command is successfully run the phonon sce should not respond to calls to other commands
 ### Inputs
-	```json
+```json
 	[implementation dependent]
-	```
+```
 
 ### Outputs
-	```json
+```json
 	[implementation dependent]
-	```
+```
 ## GENERATE_PHONON
 A phonon keypair will be generated on the phonon sce, and it's public portion will be returned
 ### Inputs
-	```json
+```json
 	{"type":[curve type])
-	```
+```
 note: curve type is a string and currently the only option is "secp256k1"
 ### Outputs
-	```json
+```json
 	{"pubkey":"binary data"}
-	```
+```
 ## SET_DESCRIPTOR
+the descriptor of a phonon contains arbitrary key value pairs and is to be attached to phonons when this command is run. the identifier of the phonon is implementation dependent and may be a representation of the pubkey or an index or other identifier stored on the sce.
 ### Inputs
-	```json
+```json
 	{
-	"arbitrary keys":"arbitrary values"
+		{
+			phonon:4
+		}
+		"data":{
+		"arbitrary keys":"arbitrary values"
+		}
 	}
-	```
+```
 
 ### Outputs
 	```json
@@ -185,8 +182,7 @@ note: curve type is a string and currently the only option is "secp256k1"
 	[optional]
 	```json
 ### Outputs
-
-	```json
+```json
 	[
 	{
 		"header": {
@@ -198,14 +194,86 @@ note: curve type is a string and currently the only option is "secp256k1"
 			"something else":"another value",
 		}
 	]
-	```
+```
 note: some implemntations will allow for filter queries to be input to cut down on the amount of phonons returned in a single request
-## DESTROY_PHONON
+## SEND_PHONONS
+The sce is given the receiver identity certificate, validates it with the certificate authority, and generates a phonon transfer packet. It is imperative that the phonon is deleted from the sce when this packet is returned to the client. If the receiver certificate cannot be validated, the packet cannot be created. 
+### Encryption
+the output of this command includes encrypted private keys. 
+$ENCRYPTION_SCHEME_DEFINITION (todo)
 ### Inputs
-	```json
-	todo
+```json
+	{
+		"receiver":"[bytes of full identity certificate of receiver]",
+		"receiver_nonce":56383927,
+		"phonons":[1,3,26]
+		
+	}
+```
+### Outputs
+```json
+	{
+		{
+			"signature":"[signature of the remaining packet signed with identity certificate]",
+			"certificate":"[bytes of full identity certificate of sender]",
+			"counter":56383927,
+			"phonons":[
+				{
+					"header":{
+						"privKey":"[private key bytes encrypted]"
+						"curve": "secp256k1",
+					},
+					"metadata":{
+						"abc":"xyz",
+						"def":"uvw"
+					}
+				}
+			]
+		}
+	}
+```
+## RECEIVE_PHONONS
+receive phonons is run with input of a transfer packet that was output from a sending card's SEND_PHONONS command, When this command is run, the receiving card must verify the legitimacy of the sender card's certificate prior to storage of the phonon. If the verification fails, the packet must not be ingested. The phonon receive counter is then increased to the value specified in the packet.
+### Counter
+the counter is a security measure to prevent a single sce from receiving the same phonon more than once. Upon initialization of the program, the counter must be set to 0, and increases to the value of the most recently received phonon upon ingestion. If a transfer packet comes in with the same or lower counter, the packet must be ignored by the sce. 
+todo: add documentation on active/passive counter and a way to differentiate between the two. 
+### Encryption
+todo
+### Inputs
+```json
+	{
+		{
+			"signature":"[signature of the remaining packet signed with identity certificate]",
+			"certificate":"[bytes of full identity certificate of sender]",
+			"counter":56383927,
+			"phonons":[
+				{
+					"header":{
+						"privKey":"[private key bytes encrypted]"
+						"curve": "secp256k1",
+					},
+					"metadata":{
+						"abc":"xyz",
+						"def":"uvw"
+					}
+				}
+			]
+		}
+	}
 	```
 
 ### Outputs
-	```json
-	```
+```json
+	[none]
+
+```
+## DESTROY_PHONON
+todo
+### Inputs
+```json
+	todo
+```
+
+### Outputs
+```json
+```
