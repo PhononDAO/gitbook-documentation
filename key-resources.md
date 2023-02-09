@@ -1,6 +1,6 @@
 # Key Resources
 
-The following are key resources for all things Phonon:
+The following are key resources for all things phonon:
 
 ### **Official Links**
 
