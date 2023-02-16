@@ -18,7 +18,6 @@
 * [The Phonon Manager (beta)](the-phonon-manager-beta.md)
 * [The Phonon DAO](the-phonon-dao/README.md)
   * [Governance Wiki](the-phonon-dao/governance-wiki.md)
-  * [Key Personnel](the-phonon-dao/team-leads.md)
   * [Phonon Improvement Proposals (PhIP)](the-phonon-dao/phonon-improvement-proposals-phip.md)
 * [Developing with Phonon](developing-with-phonon/README.md)
   * [Card Interface Specification](developing-with-phonon/card-interface-specification/README.md)
