@@ -4,24 +4,30 @@ The following are key resources for all things phonon:
 
 ### **Official Links**
 
-| Description            | URL                                                                          |
-| ---------------------- | ---------------------------------------------------------------------------- |
-| Official Website       | [https://phonon.network/](https://phonon.network/)                           |
-| Official Blog          | [https://blog.phonon.network/](https://blog.phonon.network/)                 |
-| Official Documentation | <mark style="color:red;">https://docs.phonon.network/</mark>                 |
-| Twitter                | [https://twitter.com/phonondao](https://twitter.com/phonondao)               |
-| Telegram               | [https://t.me/phonondao](https://t.me/phonondao)                             |
-| YouTube                | [https://www.youtube.com/PhononDAO](https://www.youtube.com/PhononDAO)       |
-| Instagram              | [https://www.instagram.com/phonondao/](https://www.instagram.com/phonondao/) |
-| Subreddit              | [https://www.reddit.com/r/PhononDAO/](https://www.reddit.com/r/PhononDAO/)   |
+| Description            | URL                                                           |
+| ---------------------- | ------------------------------------------------------------- |
+| Official Website       | [https://phonon.network/](https://phonon.network/)            |
+| Official Documentation | <mark style="color:red;">https://docs.phonon.network/</mark>  |
+| Official Blog          | [https://blog.phonon.network/](https://blog.phonon.network/)  |
+
+### Social Media
+
+| Description | URL                                                                          |
+| ----------- | ---------------------------------------------------------------------------- |
+| Discord     | [https://discord.gg/phonon](https://discord.gg/phonon)                       |
+| Twitter     | [https://twitter.com/phonondao](https://twitter.com/phonondao)               |
+| YouTube     | [https://www.youtube.com/PhononDAO](https://www.youtube.com/PhononDAO)       |
+| Instagram   | [https://www.instagram.com/phonondao/](https://www.instagram.com/phonondao/) |
+| Telegram    | [https://t.me/phonondao](https://t.me/phonondao)                             |
+| Subreddit   | [https://www.reddit.com/r/PhononDAO/](https://www.reddit.com/r/PhononDAO/)   |
 
 ### **DAO Governance**
 
 | Description                | URL                                                                                                                        |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Governance Discourse Forum | [https://gov.phonon.network/](https://gov.phonon.network/)                                                                 |
-| Meeting Minutes (inactive) | [https://docs.phonon.fyi/meeting-minutes/](https://docs.phonon.fyi/meeting-minutes/) (<mark style="color:red;">???</mark>) |
 | Snapshot Voting            | [https://vote.phonon.network/](https://vote.phonon.network/)                                                               |
+| Meeting Minutes (inactive) | [https://docs.phonon.fyi/meeting-minutes/](https://docs.phonon.fyi/meeting-minutes/) (<mark style="color:red;">???</mark>) |
 
 ### Community Links
 
