@@ -25,7 +25,7 @@ This functionality relies on the following key principles:
 * A phonon private key must be known only to a trusted Phonon Card (until withdrawal from the network).
 * After sending or withdrawing a phonon from a card, that card will destroy its record of the phonon.
 
-Learn more by <mark style="color:red;">reading the Phonon Protocol</mark>. The Phonon protocol software is open sourced and <mark style="color:red;">available here</mark>.
+Learn more by [reading the Phonon Protocol](broken-reference). The Phonon protocol software is open sourced and [available here](https://github.com/PhononDAO/phonon-core).
 {% endtab %}
 {% endtabs %}
 
@@ -57,9 +57,9 @@ Essentially, the only security guarantee about a phonon that the secure applet c
 
 To interact with the Phonon Card applet,&#x20;
 
-There are multiple interfaces that are available to interact with the Phonon Card.  You can <mark style="color:red;">learn more about these interfaces here</mark>.
+There are multiple interfaces that are available to interact with the Phonon Card.  You can [learn more about these interfaces here](developing-with-phonon/card-interface-specification/).
 
-The Phonon Protocol applet software is open sourced and <mark style="color:red;">available here</mark>.
+The Phonon Protocol applet software is open sourced and [available here](https://github.com/PhononDAO/phonon-card).
 {% endtab %}
 {% endtabs %}
 
@@ -158,7 +158,7 @@ When the beta version of the Phonon Protocol is released, we will announce more 
 If you'd like to technically contribute to the Phonon Protocol, here's a few places to get started:
 
 * [Discord](https://discord.gg/NkcSBGfG) - This is where the core conversations happened, check out the group of channels under TECHNICAL DISCUSSIONS. Feel free to introduce yourself and join the discussions.
-* [Documentation](the-phonon-protocol/) - Get familiar with what phonon is, how the protocol works, and how to get started with development.
+* [Documentation](broken-reference) - Get familiar with what phonon is, how the protocol works, and how to get started with development.
 * [Github Project](https://github.com/orgs/GridPlus/projects/18) - This is where we keep track of the progress of work done on the protocol.
 {% endtab %}
 
@@ -166,7 +166,6 @@ If you'd like to technically contribute to the Phonon Protocol, here's a few pla
 If you'd like to  contribute to the Phonon Protocol, but don't have the technical background, here's where to get started:
 
 * [Discord](https://discord.gg/NkcSBGfG) - This is where the core conversations happened, check out the group of channels under WORKING GROUPS. Feel free to introduce yourself and join the discussions.
-* [Documentation](the-phonon-protocol/) - Get familiar with what phonon is, how the protocol works, and how to use phonon.
 * [Github Project](https://github.com/orgs/PhononDAO/projects/1/views/1) - This is where we keep track of non-development progress for things related to phonon. If you'd like to contribute artistically (illustrations, animations, etc.), you'll see what we're looking to complete here.  If you have other ideas, we'd love to hear them! Connect with us in Discord.
 {% endtab %}
 {% endtabs %}

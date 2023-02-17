@@ -10,7 +10,7 @@ Here's a couple sneak peek videos of the upcoming Phonon Manager:
 
 The following things will be changing as the protocol is evolving:
 
-* We are moving to a [messaged based method of phonon transfer](the-phonon-protocol/deeper-dive/phonon-transfer-lifecycle.md), so the pairing experience shared in the videos above will change.
+* We are moving to a [messaged based method of phonon transfer](deeper-dive/phonon-transfer-lifecycle.md), so the pairing experience shared in the videos above will change.
 * Mining native phonons has been removed from the beta release of the Phonon Protocol.
 
 More coming soon!
