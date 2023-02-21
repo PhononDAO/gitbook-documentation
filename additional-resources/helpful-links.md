@@ -1,4 +1,4 @@
-# Key Resources
+# Helpful Links
 
 The following are key resources for all things phonon:
 
@@ -23,22 +23,10 @@ The following are key resources for all things phonon:
 
 ### **DAO Governance**
 
-| Description                | URL                                                                                                                        |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Governance Discourse Forum | [https://gov.phonon.network/](https://gov.phonon.network/)                                                                 |
-| Snapshot Voting            | [https://vote.phonon.network/](https://vote.phonon.network/)                                                               |
-| Meeting Minutes (inactive) | [https://docs.phonon.fyi/meeting-minutes/](https://docs.phonon.fyi/meeting-minutes/) (<mark style="color:red;">???</mark>) |
-
-### Community Links
-
-| Description                                                       | URL                                                                                                                                                                                                                                             |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Newsletter (<mark style="color:red;">???</mark>)                  | [https://phonon.substack.com/](https://phonon.substack.com/)                                                                                                                                                                                    |
-| Phonongod Blog (<mark style="color:red;">???</mark>)              | [https://phonongod.substack.com/](https://phonongod.substack.com/)                                                                                                                                                                              |
-| Phriendly PheverDreams Blog (<mark style="color:red;">???</mark>) | [https://phriendlypheverdreams.substack.com/](https://phriendlypheverdreams.substack.com/)                                                                                                                                                      |
-| Phonon Updates (<mark style="color:red;">???</mark>)              | [https://twitter.com/PhononUpdates](https://twitter.com/PhononUpdates)                                                                                                                                                                          |
-| Coordinape (<mark style="color:red;">???</mark>)                  | [https://app.coordinape.com/circles](https://app.coordinape.com/circles)                                                                                                                                                                        |
-| Dework (<mark style="color:red;">???</mark>)                      | <p><a href="https://app.dework.xyz/phonon-dao">https://app.dework.xyz/phonon-dao</a><br><br><a href="https://www.youtube.com/playlist?list=PLTd6GTBRQoEg3ej1jn0mjTF_N96N74aqU">Click here</a> <strong></strong> to learn how to use Dework.</p> |
+| Description                | URL                                                          |
+| -------------------------- | ------------------------------------------------------------ |
+| Governance Discourse Forum | [https://gov.phonon.network/](https://gov.phonon.network/)   |
+| Snapshot Voting            | [https://vote.phonon.network/](https://vote.phonon.network/) |
 
 ### Git Repositories
 
