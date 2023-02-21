@@ -4,11 +4,11 @@ The following are key resources for all things phonon:
 
 ### **Official Links**
 
-| Description            | URL                                                           |
-| ---------------------- | ------------------------------------------------------------- |
-| Official Website       | [https://phonon.network/](https://phonon.network/)            |
-| Official Documentation | <mark style="color:red;">https://docs.phonon.network/</mark>  |
-| Official Blog          | [https://blog.phonon.network/](https://blog.phonon.network/)  |
+| Description            | URL                                                |
+| ---------------------- | -------------------------------------------------- |
+| Official Website       | [https://phonon.org](https://phonon.org)           |
+| Official Documentation | [https://docs.phonon.org](https://docs.phonon.org) |
+| Official Blog          | [https://blog.phonon.org](https://blog.phonon.org) |
 
 ### Social Media
 
@@ -23,10 +23,10 @@ The following are key resources for all things phonon:
 
 ### **DAO Governance**
 
-| Description                | URL                                                          |
-| -------------------------- | ------------------------------------------------------------ |
-| Governance Discourse Forum | [https://gov.phonon.network/](https://gov.phonon.network/)   |
-| Snapshot Voting            | [https://vote.phonon.network/](https://vote.phonon.network/) |
+| Description                | URL                                                |
+| -------------------------- | -------------------------------------------------- |
+| Governance Discourse Forum | [https://gov.phonon.org](https://gov.phonon.org)   |
+| Snapshot Voting            | [https://vote.phonon.org](https://vote.phonon.org) |
 
 ### Git Repositories
 
@@ -39,8 +39,9 @@ The following are key resources for all things phonon:
 
 ### Additional Resources
 
-| Description                 | URL                                                                                                                                                                                                              |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dune Analytics Dashboard    | [https://dune.com/760trader/Phonon-on-chain-data](https://dune.com/760trader/Phonon-on-chain-data)                                                                                                               |
-| Alpha Testnet (completed)   | [https://phonon.network/alpha-test/](https://phonon.network/alpha-test/)                                                                                                                                         |
-| Phonon DAO Launch Blog Post | [https://blog.phonon.network/phonon-dao-launch-overview-resources-and-phonon-token-details-f8369e89f1ea](https://blog.phonon.network/phonon-dao-launch-overview-resources-and-phonon-token-details-f8369e89f1ea) |
+| Description                 | URL                                                                                                                                                                                                      |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dune Analytics Dashboard    | [https://dune.com/760trader/Phonon-on-chain-data](https://dune.com/760trader/Phonon-on-chain-data)                                                                                                       |
+| Alpha Testnet (completed)   | [https://phonon.org/alpha-test/](https://phonon.org/alpha-test/)                                                                                                                                         |
+| Phonon DAO Launch Blog Post | [https://blog.phonon.org/phonon-dao-launch-overview-resources-and-phonon-token-details-f8369e89f1ea](https://blog.phonon.org/phonon-dao-launch-overview-resources-and-phonon-token-details-f8369e89f1ea) |
+
