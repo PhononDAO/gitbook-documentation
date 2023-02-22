@@ -9,7 +9,10 @@
 - Phonon desktop client release
 - JumpBox based internet transfer
 
+#
+#
 # WE ARE HERE
+#
 ## v1.0.0 stable beta
 - One-way, single message transfer topology spec
 A paired down protocol spec that allows for one-way transfers without the previous secure channel implementation. This is meant to simplify the programming (and therefore surface area) of the backend phonon devices
