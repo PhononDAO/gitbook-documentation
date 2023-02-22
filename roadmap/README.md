@@ -25,7 +25,7 @@ Updated transfer methods that don't require the use of an intermediate service t
 A service that acts as an intermediary between clients to allow for sending phonons to a user that is not online at the moment
 
 ## v2.0.0 advanced features beta
-- Ttwo-way atomic swap
+- Two-way atomic swap
 An additional transfer topology that allows for trading some phonons for others while minimizing counterparty risk and keeping within the security requirements
 ## v2.1.0 advanced features release
 - Fixes for any issues that come up in stable beta
