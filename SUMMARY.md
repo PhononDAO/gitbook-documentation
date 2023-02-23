@@ -16,7 +16,7 @@
 * [The Whitepaper](the-phonon-protocol/the-whitepaper.md)
 * [How the Protocol is Developed](the-phonon-protocol/how-the-protocol-is-developed/README.md)
   * [Issue Management](https://github.com/orgs/GridPlus/projects/18/views/9)
-  * [Roadmap](https://gridplus.github.io/phonon-roadmap/)
+  * [Roadmap](the-phonon-protocol/how-the-protocol-is-developed/roadmap.md)
 * [The Phonon Manager (beta)](the-phonon-protocol/the-phonon-manager-beta.md)
 
 ## The Phonon DAO
