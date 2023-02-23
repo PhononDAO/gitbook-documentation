@@ -9,7 +9,6 @@
   * [Anatomy of a Phonon](the-phonon-protocol/deeper-dive/anatomy-of-a-phonon.md)
   * [Creating a Phonon](the-phonon-protocol/deeper-dive/creating-a-phonon.md)
   * [Redeeming/Destroying a Phonon](the-phonon-protocol/deeper-dive/redeeming-destroying-a-phonon.md)
-  * [Phonon Asset Validation](the-phonon-protocol/deeper-dive/phonon-asset-validation.md)
   * [Phonon Transfer Lifecycle](the-phonon-protocol/deeper-dive/phonon-transfer-lifecycle.md)
   * [Certificate Authority](the-phonon-protocol/deeper-dive/certificate-authority.md)
   * [Threat Model](the-phonon-protocol/deeper-dive/threat-model.md)
@@ -18,6 +17,12 @@
   * [Issue Management](https://github.com/orgs/GridPlus/projects/18/views/9)
   * [Roadmap](the-phonon-protocol/how-the-protocol-is-developed/roadmap.md)
 * [The Phonon Manager (beta)](the-phonon-protocol/the-phonon-manager-beta.md)
+
+## Phonon and Blockchains
+
+* [Overview](phonon-and-blockchains/overview.md)
+* [Phonon Asset Validation](phonon-and-blockchains/phonon-asset-validation.md)
+* [Supported Assets and Chains](phonon-and-blockchains/supported-assets-and-chains.md)
 
 ## The Phonon DAO
 
