@@ -1,3 +1,22 @@
 # Anatomy of a Phonon
 
-<mark style="color:red;">TODO:</mark> Provide a detailed understanding of what data a phonon holds, memory limitations, data restrictions, etc.
+A phonon is a self-contained object that includes descriptors and keys for the underlying asset. 
+
+In order to provide maximum flexibility in phonon description, and to keep phonon descriptors flexible enough to describe any crypto asset, present or future, the "descriptor" of each phonon will consist of a set of standard metadata fields to enable convenient usage with common assets, along with an open ended set of Key-Value pairs which can be used to provide additional fields necessary to describing any arbitrary asset.
+
+Below is a description of the standard fields required to be set on each phonon. As decribed at the bottom of the table, any number of additional tag value pairs can be set in the phonon description as long as the maximum storage size of a phonon is not exceeded. KeyIndex, Private Key, and Key Curve Type will be generated on the card, while all of the other values will originate with a call to SET_DESCRIPTOR and then carry over to the new card when phonons are sent and received.
+
+| FieldName | Tag  | Properties | Length | Description | 
+| --- | --- | --- | --- | --- |
+| KeyIndex  | 0x41 | Auto-generated | 2 | Index position on the card, automatically generated when the phonon is created or received on the card. |
+| Private Key | 0x81 | Auto-generated | 32  | Omitted from LIST_PHONONS for security. The phonon's private key. Automatically generated on card and held privately until the phonon is redeemed.  | 
+| Public Key | 0x80 | JIT Generated | 65 | Uncompressed ECC public key. Not stored on card but derived from private key as needed to be returned in LIST_PHONONS command. (Derived from private key on demand, not actually stored on card.) |
+| Key Curve Type | 0x87 | Required | 1 | The Phonon Key's curve type, secp256k1, Edwards, etc. Used to identify which cryptographic primitives are needed to manage the key.   When non-ECC. curves are used, this may result in the length of the public and private key fields changing. | 
+| Schema Version | 0x88 | Required | 1 | A version byte identifying the standard fields used to describe this phonon. Version 1 refers to just the standard fields listed here, future versions are available to identify that different parsing rules should be used by the card or client. | 
+| Extended Schema Version | 0x89 | Optional | 1 | A version byte identifying the specific extended set of fields used for this phonon. Can be ignored by the card, which stores the extended fields as a blob, but used by the client to parse and process these fields. | 
+| StandardType | 0x82 | Optional | 2 | Identifier for the blockchain this phonon exists on. References a table stored in the client. |
+| Value Base | 0x83 | Optional | 1 | A uint8 recording the value of the asset as a whole integer. Combine with the Value Exponent to derive the phonon value in the chain's minimally divisible unit. Provides ~2 significant digits of description for efficient description of whole number denominations.  | 
+| Value Exponent | 0x86 | Optional | 1 | An int8 recording the value of the exponent. Combine with the Value Base to derive the phonon value in the chain's minimally divisible unit | 
+| ... | ... | Optional | ... | Open ended tags used to further describe assets. Examples may include contract address, more detailed value information, chain specific parameters, etc. |   
+
+Next we'll explore how a phonon is created.
