@@ -17,6 +17,12 @@
   * [Roadmap](the-phonon-protocol/how-the-protocol-is-developed/roadmap.md)
 * [The Phonon Manager (beta)](the-phonon-protocol/the-phonon-manager-beta.md)
 
+## Phonon and Blockchains
+
+* [Overview](phonon-and-blockchains/overview.md)
+* [Phonon Asset Validation](phonon-and-blockchains/phonon-asset-validation.md)
+* [Supported Assets and Chains](phonon-and-blockchains/supported-assets-and-chains.md)
+
 ## The Phonon DAO
 
 * [Governance Wiki](the-phonon-dao/governance-wiki.md)
