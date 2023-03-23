@@ -1,3 +1,0 @@
-# Hardware Requirements
-
-<mark style="color:red;">TODO:</mark> The hardware requirements are...
