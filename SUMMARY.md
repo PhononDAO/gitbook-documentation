@@ -5,12 +5,6 @@
 
 ## The Phonon Protocol
 
-* [Deeper Dive](the-phonon-protocol/deeper-dive/README.md)
-  * [Anatomy of a Phonon](the-phonon-protocol/deeper-dive/anatomy-of-a-phonon.md)
-  * [Phonon Transfer Lifecycle](the-phonon-protocol/deeper-dive/phonon-transfer-lifecycle.md)
-  * [Certificate Authority](the-phonon-protocol/deeper-dive/certificate-authority.md)
-  * [Threat Model](the-phonon-protocol/deeper-dive/threat-model.md)
-  * [Key Considerations](the-phonon-protocol/deeper-dive/key-considerations.md)
 * [The Whitepaper](the-phonon-protocol/the-whitepaper.md)
 * [How the Protocol is Developed](the-phonon-protocol/how-the-protocol-is-developed/README.md)
   * [Issue Management](https://github.com/orgs/GridPlus/projects/18/views/9)
@@ -27,14 +21,6 @@
 
 * [Governance Wiki](the-phonon-dao/governance-wiki.md)
 * [Phonon Improvement Proposals (PhIP)](the-phonon-dao/phonon-improvement-proposals-phip.md)
-
-## Developing with Phonon
-
-* [Card Interface Specification](developing-with-phonon/card-interface-specification/README.md)
-  * [REPL Interface](developing-with-phonon/card-interface-specification/repl-interface.md)
-  * [RESTful API Interface](developing-with-phonon/card-interface-specification/restful-api-interface.md)
-* [Hardware Requirements](developing-with-phonon/hardware-requirements.md)
-* [Known Issues](developing-with-phonon/known-issues.md)
 
 ## Additional Resources
 
