@@ -6,7 +6,7 @@ The following are key resources for all things phonon:
 
 | Description            | URL                                                |
 | ---------------------- | -------------------------------------------------- |
-| Official Website       | [https://phonon.org](https://phonon.org)           |
+| Official Website       | [https://www.phonon.org](https://www.phonon.org)   |
 | Official Documentation | [https://docs.phonon.org](https://docs.phonon.org) |
 | Official Blog          | [https://blog.phonon.org](https://blog.phonon.org) |
 
@@ -42,6 +42,5 @@ The following are key resources for all things phonon:
 | Description                 | URL                                                                                                                                                                                                      |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dune Analytics Dashboard    | [https://dune.com/760trader/Phonon-on-chain-data](https://dune.com/760trader/Phonon-on-chain-data)                                                                                                       |
-| Alpha Testnet (completed)   | [https://phonon.org/alpha-test/](https://phonon.org/alpha-test/)                                                                                                                                         |
 | Phonon DAO Launch Blog Post | [https://blog.phonon.org/phonon-dao-launch-overview-resources-and-phonon-token-details-f8369e89f1ea](https://blog.phonon.org/phonon-dao-launch-overview-resources-and-phonon-token-details-f8369e89f1ea) |
 
